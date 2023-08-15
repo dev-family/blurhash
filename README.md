@@ -42,7 +42,7 @@ http://localhost:3333?image_url=https://imgproxy.com/imageurl&x=1&y=4
 
 
 ```
-docker run -d -p 3333:3333 ghcr.io/dev-family/blurhash
+docker run -d -p 3333:3333 ghcr.io/dev-family/blurhash:1.0.0
 ```
 
 
