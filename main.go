@@ -75,10 +75,10 @@ func encode(c *routing.Context) error {
 
 	jsonBytes, err := json.Marshal(jsonResponse)
 
-    if err != nil {
-        fmt.Println("Error marshaling JSON:", err)
-        return err
-    }
+	if err != nil {
+		fmt.Println("Error marshaling JSON:", err)
+	        return err
+	}
 
 	c.Response.Header.SetContentType("application/json")
 	c.Response.SetBodyRaw(jsonBytes)
